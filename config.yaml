@@ -1,9 +1,4 @@
-http:
- host: 'localhost'
-  port: 5000
+DATABASE_HOST: 'localhost'
+DATABASE_PORT: 27017
 
-deb: 
-  mongodb:
-    host: 'localhost'
-    port: 27017
-    db: 'nest'
+PORT: 3000
