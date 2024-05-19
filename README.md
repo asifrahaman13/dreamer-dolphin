@@ -1,6 +1,6 @@
 ## About the application
 
-The application uses Nestjs framework to perform different operations on category, subcategory, items for e commerce applications. 
+The application uses Nestjs framework to perform different operations on category, subcategory, items for e commerce applications.
 
 ## Installation 
 
@@ -39,29 +39,29 @@ create an env variable file.
 mv .env.example .env
 ```
 
-## Running as docker container
-
-Follow the steps in case you want to run the application as a docker container:
-
-```bash
-docker build -t dreamer-dolphin:latest .
-```
-
-```bash 
-docker run -p 5000:5000 dreamer-dolphin:latest
-```
-
-**Note: Please use mongodb atlas in case you are running on docker container. Using local host may throw erro in that case.**
 
 ## Running the app
 
-```bash
-# development
-$ yarn run start
+- ```bash
+  # development
+  $ yarn run start
 
-# watch mode
-$ yarn run start:dev
+  # watch mode
+  $ yarn run start:dev
 
-# production mode
-$ yarn run start:prod
-```
+  # production mode
+  $ yarn run start:prod
+    ```
+
+## Running as docker container
+
+- Follow the steps in case you want to run the application as a docker container:
+  ```bash
+  docker build -t dreamer-dolphin:latest .
+  ```
+- Rn the docker container:
+  ```bash 
+  docker run -p 5000:5000 dreamer-dolphin:latest
+  ```
+
+**Note: Please use mongodb atlas in case you are running on docker container. Using local host may throw erro in that case.**
