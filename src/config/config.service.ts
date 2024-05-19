@@ -37,7 +37,6 @@ export class CustomConfigService {
 
   getPort(): number {
     const port = parseInt(this.get('PORT'), 10) || 3000;
-    console.log('The port', port);
     // Return the port number.
     return port;
   }
